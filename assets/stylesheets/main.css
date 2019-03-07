@@ -119,8 +119,14 @@ a:hover {
 .row2 {
  height: 200px;
 }
+.row25 {
+ height: 250px;
+}
 .row3 {
  height: 300px;
+}
+.row35 {
+ height: 350px;
 }
 .row4 {
  height: 400px;
@@ -128,11 +134,26 @@ a:hover {
 .row5 {
  height: 500px;
 }
+.row55 {
+ height: 550px;
+}
 .row6 {
  height: 600px;
 }
 .row7 {
  height: 700px;
+}
+.row75 {
+ height: 750px;
+}
+.row8 {
+ height: 800px;
+}
+.row85 {
+ height: 850px;
+}
+.row9 {
+ height: 900px;
 }
 html,
 body {
@@ -141,17 +162,73 @@ body {
 body {
  background-color: #0088cc;
 }
-header {
- position: absolute;
- top: 0;
+@media only screen
+and (min-width: 768px) {
+ header {
+  position: absolute;
+  top: 0;
+ }
+ section > div {
+  width: 900px;
+  left: calc(calc(100% - 900px) / 2);
+  overflow: auto;
+ }
+ footer {
+  position: absolute;
+  bottom: 0px;
+ }
+ section,
+ section > div {
+  position: absolute;
+ }
+ section {
+  top: 150px;
+  height: calc(100% - 350px);
+  width: 100%;
+ }
+ section > div h2 {
+  font-size: 30px;
+ }
+ .user-name {
+  font-size: 32px;
+ }
+ .contact {
+  font-size: 15px;
+ }
 }
-footer {
- position: absolute;
- bottom: 0px;
-}
-section > div {
- width: 900px;
- left: calc(calc(100% - 900px) / 2);
+@media only screen
+and (max-width: 767px) {
+ header {
+  height: 150px;
+ }
+ section > div {
+  width: 100%;
+ }
+ footer {
+  height: 200px;
+ }
+ section,
+ section > div {
+  
+ }
+ section {
+  
+ }
+ section > div h2 {
+  font-size: 26px;
+ }
+ .user-name {
+  font-size: 28px;
+ }
+ .contact {
+  font-size: 11px;
+ }
+ table {
+  font-size: 13px;
+ }
+ .menu-bar {
+  font-size: 14px;
+ }
 }
 header,
 footer {
@@ -159,24 +236,16 @@ footer {
 }
 section,
 section > div {
- position: absolute;
  background-color: white;
  color: #0088cc;
 }
-section {
- top: 150px;
- height: calc(100% - 350px);
- width: 100%;
-}
 section > div {
  height: 100%;
- overflow: auto;
  display: grid;
  align-content: start;
 }
 section > div h2 {
  text-align: center;
- font-size: 30px;
  padding: 20px 0;
 }
 header a {
@@ -191,7 +260,6 @@ footer {
 }
 .user-name {
  display: inline-grid;
- font-size: 32px;
  align-content: center;
  text-align: center;
 }
@@ -230,7 +298,6 @@ section a:hover {
  display: inline-grid;
  align-content: end;
  text-align: right;
- font-size: 15px;
 }
 .contact a {
  color: #F3F3F3;
@@ -249,11 +316,6 @@ th {
  background-color: #08c;
  color: white;
 }
-.menu-bar {
- position: absolute;
- width: 100%;
- z-index: 1;
-}
 .menu-bar a {
  color: #08c;
 }
@@ -263,4 +325,21 @@ th {
 td:nth-child(3) {
  text-align: right;
  padding-left: 70px;
+}
+.current-page {
+ border-bottom: 3px solid #08c;
+ height: calc(100% - 3px);
+}
+.footnote {
+ font-size: smaller;
+}
+.hammer-bullet {
+ background-image: url(../images/hammer.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 16px;
+ height: 16px;
+ display: inline-block;
+ margin-right: 5px;
+ background-position-y: -1px;
 }
