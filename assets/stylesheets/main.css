@@ -252,7 +252,7 @@ header a {
  color: white;
 }
 header a:hover {
- color: orangered;
+ color: purple;
 }
 header,
 footer {
@@ -264,7 +264,7 @@ footer {
  text-align: center;
 }
 .user-name:hover {
- color: orangered;
+ color: purple;
 }
 .user-img-container {
  display: inline-grid;
@@ -277,6 +277,28 @@ footer {
  width: 200px;
  height: 196px;
 }
+.language-link {
+ float: right;
+ margin: 20px;
+}
+.language-en:hover,
+.language-rs:hover {
+ cursor: pointer;
+}
+.language-en {
+ background-image: url(../images/lang/us_flag.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 25px;
+ height: 20px;
+}
+.language-rs {
+ background-image: url(../images/lang/rs_flag.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+ width: 25px;
+ height: 20px;
+}
 .section-link {
  background-color: #F3F3F3;
  text-align: center;
@@ -287,7 +309,7 @@ section a {
  color: #08c;
 }
 section a:hover {
- color: orangered;
+ color: purple;
 }
 .section-link:hover {
  background-color: #08c;
@@ -303,7 +325,7 @@ section a:hover {
  color: #F3F3F3;
 }
 .contact a:hover {
- color: orangered;
+ color: purple;
 }
 .contact li {
  padding-bottom: 10px;
