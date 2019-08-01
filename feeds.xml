@@ -5,6 +5,9 @@
     <link>https://vladimirmarkovic86.github.io/</link>
     <description>Resume of Vladimir Marković</description>
     <language>en-US</language>
+    <atom:link href="https://vladimirmarkovic86.github.io/feeds.xml"
+               rel="self"
+               type="application/rss+xml" />
     <item>
       <title>Education</title>
       <link>https://vladimirmarkovic86.github.io/education.html</link>
@@ -35,8 +38,5 @@
       <description>Computer skills information</description>
       <guid>https://vladimirmarkovic86.github.io/computer_skills.html</guid>
     </item>
-    <atom:link href="https://vladimirmarkovic86.github.io/feeds.xml"
-               rel="self"
-               type="application/rss+xml" />
   </channel>
 </rss>
