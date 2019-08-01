@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Владимир Марковић резиме почетна страна</title>
+    <link>https://vladimirmarkovic86.github.io/rs/index.html</link>
+    <description>Резиме Владимира Марковића</description>
+    <language>sr-Cyrl</language>
+    <item>
+      <title>Образовање</title>
+      <link>https://vladimirmarkovic86.github.io/rs/education.html</link>
+      <description>Информације о образовању</description>
+    </item>
+    <item>
+      <title>Мастер рад</title>
+      <link>https://vladimirmarkovic86.github.io/rs/master_thesis.html</link>
+      <description>Информације о мастер раду</description>
+    </item>
+    <item>
+      <title>Искуство</title>
+      <link>https://vladimirmarkovic86.github.io/rs/experience.html</link>
+      <description>Информације о искуству</description>
+    </item>
+    <item>
+      <title>Језици</title>
+      <link>https://vladimirmarkovic86.github.io/rs/languages.html</link>
+      <description>Информације о језицима</description>
+    </item>
+    <item>
+      <title>Компјутерске вештине</title>
+      <link>https://vladimirmarkovic86.github.io/rs/computer_skills.html</link>
+      <description>Информације о компјутерским вештинама</description>
+    </item>
+  </channel>
+</rss>

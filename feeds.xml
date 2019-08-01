@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Vladimir Marković Portfolio Home Page</title>
+    <link>https://vladimirmarkovic86.github.io/</link>
+    <description>Resume of Vladimir Marković</description>
+    <language>en-US</language>
+    <item>
+      <title>Education</title>
+      <link>https://vladimirmarkovic86.github.io/education.html</link>
+      <description>Education information</description>
+    </item>
+    <item>
+      <title>Master thesis</title>
+      <link>https://vladimirmarkovic86.github.io/master_thesis.html</link>
+      <description>Master thesis information</description>
+    </item>
+    <item>
+      <title>Experience</title>
+      <link>https://vladimirmarkovic86.github.io/experience.html</link>
+      <description>Experience information</description>
+    </item>
+    <item>
+      <title>Languages</title>
+      <link>https://vladimirmarkovic86.github.io/languages.html</link>
+      <description>Languages information</description>
+    </item>
+    <item>
+      <title>Computer skills</title>
+      <link>https://vladimirmarkovic86.github.io/computer_skills.html</link>
+      <description>Computer skills information</description>
+    </item>
+  </channel>
+</rss>
