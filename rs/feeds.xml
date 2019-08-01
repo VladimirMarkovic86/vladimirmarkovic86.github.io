@@ -2,36 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" >
   <channel>
     <title>Владимир Марковић резиме почетна страна</title>
-    <link>https://vladimirmarkovic86.github.io/rs/index.html</link>
+    <link>https://vladimirmarkovic86.github.io/rs/</link>
     <description>Резиме Владимира Марковића</description>
     <language>sr-Cyrl</language>
+    <atom:link href="https://vladimirmarkovic86.github.io/rs/feeds.xml"
+               rel="self"
+               type="application/rss+xml" />
     <item>
       <title>Образовање</title>
       <link>https://vladimirmarkovic86.github.io/rs/education.html</link>
       <description>Информације о образовању</description>
+      <guid>https://vladimirmarkovic86.github.io/rs/education.html</guid>
     </item>
     <item>
       <title>Мастер рад</title>
       <link>https://vladimirmarkovic86.github.io/rs/master_thesis.html</link>
       <description>Информације о мастер раду</description>
+      <guid>https://vladimirmarkovic86.github.io/rs/master_thesis.html</guid>
     </item>
     <item>
       <title>Искуство</title>
       <link>https://vladimirmarkovic86.github.io/rs/experience.html</link>
       <description>Информације о искуству</description>
+      <guid>https://vladimirmarkovic86.github.io/rs/experience.html</guid>
     </item>
     <item>
       <title>Језици</title>
       <link>https://vladimirmarkovic86.github.io/rs/languages.html</link>
       <description>Информације о језицима</description>
+      <guid>https://vladimirmarkovic86.github.io/rs/languages.html</guid>
     </item>
     <item>
       <title>Компјутерске вештине</title>
       <link>https://vladimirmarkovic86.github.io/rs/computer_skills.html</link>
       <description>Информације о компјутерским вештинама</description>
+      <guid>https://vladimirmarkovic86.github.io/rs/computer_skills.html</guid>
     </item>
-    <atom:link href="https://vladimirmarkovic86.github.io/rs/feeds.xml"
-               rel="self"
-               type="application/rss+xml" />
   </channel>
 </rss>
