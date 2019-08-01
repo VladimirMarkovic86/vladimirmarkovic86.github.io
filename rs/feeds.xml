@@ -30,5 +30,8 @@
       <link>https://vladimirmarkovic86.github.io/rs/computer_skills.html</link>
       <description>Информације о компјутерским вештинама</description>
     </item>
+    <atom:link href="https://vladimirmarkovic86.github.io/rs/feeds.xml"
+               rel="self"
+               type="application/rss+xml" />
   </channel>
 </rss>
