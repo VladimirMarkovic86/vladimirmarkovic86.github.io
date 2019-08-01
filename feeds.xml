@@ -9,31 +9,31 @@
       <title>Education</title>
       <link>https://vladimirmarkovic86.github.io/education.html</link>
       <description>Education information</description>
-      <guid>Education item</guid>
+      <guid>Education%20item</guid>
     </item>
     <item>
       <title>Master thesis</title>
       <link>https://vladimirmarkovic86.github.io/master_thesis.html</link>
       <description>Master thesis information</description>
-      <guid>Master thesis item</guid>
+      <guid>Master%20thesis%20item</guid>
     </item>
     <item>
       <title>Experience</title>
       <link>https://vladimirmarkovic86.github.io/experience.html</link>
       <description>Experience information</description>
-      <guid>Experience item</guid>
+      <guid>Experience%20item</guid>
     </item>
     <item>
       <title>Languages</title>
       <link>https://vladimirmarkovic86.github.io/languages.html</link>
       <description>Languages information</description>
-      <guid>Languages item</guid>
+      <guid>Languages%20item</guid>
     </item>
     <item>
       <title>Computer skills</title>
       <link>https://vladimirmarkovic86.github.io/computer_skills.html</link>
       <description>Computer skills information</description>
-      <guid>Computer skills item</guid>
+      <guid>Computer%20skills%20item</guid>
     </item>
     <atom:link href="https://vladimirmarkovic86.github.io/feeds.xml"
                rel="self"
